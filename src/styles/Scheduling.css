@@ -1,0 +1,33 @@
+table.table-scheduling{
+    width: 100%;
+    font-size: 1.3em;
+}
+
+tr.table-header th {
+    border: solid 1px #313551;
+    height: 50px;
+    border-radius: 10px;
+    
+}
+
+tr.table-body td {
+    background-color: #31355190;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+
+
+svg.btn-edit, svg.btn-remove {
+    width: 50px;
+    cursor: pointer;
+}
+
+svg.btn-edit{
+    color: rgb(90, 226, 226);
+}
+
+svg.btn-remove{
+    color: #d65f5f;
+}

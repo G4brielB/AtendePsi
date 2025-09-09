@@ -1,0 +1,64 @@
+
+section.scheduling{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #000;
+    overflow: hidden;
+    position: relative;
+}
+
+section.scheduling img {
+    position: absolute;
+    z-index: -1;
+    opacity: calc(0.5);
+    width: 100vw;
+}
+
+div.today{
+    display: flex;
+}
+
+div.day{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 13vw;
+    height: 30vh;
+    margin: 20px;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(10px);
+    border: solid 2px rgb(91, 108, 255, 0.3);
+}
+
+div.time{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 13vw;
+    border-radius: 20px;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(10px);
+    border: solid 2px rgb(91, 108, 255, 0.3);
+}
+
+div.today div p {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+div.phrase{
+    text-align: center;
+    margin-bottom: 200px;
+    font-size: 1.6em;
+    background-color: rgba(0, 0, 0, 0);
+    backdrop-filter: blur(10px);
+    border: solid 2px rgb(91, 108, 255, 0.3);
+    padding: 50px 150px;
+}

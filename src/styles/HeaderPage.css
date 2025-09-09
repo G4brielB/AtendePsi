@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap');
+
+
+.header-screen{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(156deg,rgba(68, 75, 109, 1) 0%, rgba(239, 233, 222, 1) 100%);
+}
+
+.left-text{
+    display: flex;
+    flex-direction: column;
+    margin-left: 4em;
+    width: 60%;
+    justify-content: flex-start;
+    color: #fff;
+}
+
+.psi-name{
+    margin-bottom: 10em;
+    margin-top: 5em;
+}
+
+.psi-name h1 {
+    font-family: "Fleur De Leah", cursive;
+    font-size: 5.5em;
+}
+
+.psi-name p {
+    font-size: 1.5em;
+}
+
+.description-text{
+    font-size: 4em;
+}
+
+.right-image{
+    height: 100vh;
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.right-image img {
+    height: 90%;
+    width: 100%;
+    object-fit: contain;
+    
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.btn-header{
+    width: 300px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    background-color: #313551;
+
+}
+
+.btn-header a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.6em;
+}
