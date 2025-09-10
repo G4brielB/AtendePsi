@@ -18,7 +18,7 @@ export default props => {
                 </div>
             </div>
             <div class="right-image">
-                <img src="https://i.pinimg.com/originals/9f/44/db/9f44db3d2d4eac9fd062e06867d4d538.gif" alt="" />
+                <img src="https://cdn-icons-png.flaticon.com/512/3203/3203858.png" alt="" />
             </div>
 
             

@@ -66,7 +66,7 @@ app.post('/users', upload.none() , async (req, res) => {
     }
 })
 
-app.post("")
+
 
 /*INICIO AGENDAMENTOS */
 
