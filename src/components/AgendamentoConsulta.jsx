@@ -28,7 +28,7 @@ export default props => {
         try{
             await newScheduling(schedulingInfo)
             alert("Agendamento concluido")
-            Navigate("/")
+            window.location.href = "/"
         }catch(err){
             alert(err)
         }
