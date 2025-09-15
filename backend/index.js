@@ -66,6 +66,37 @@ app.post('/users', upload.none() , async (req, res) => {
     }
 })
 
+app.post("/auth", async (req, res) => {
+    
+    const {email, password} = req.body
+    
+    try{
+        
+        const searchUserSQL = "SELECT email, password FROM users WHERE email=?;"
+
+        const [results] = await connection.query(searchUserSQL, [email])
+
+        const match = await  bcrypt.compare(password, results[0].passsword)
+
+        res.status(201).json({
+            success: true,
+            message: "usuario logado com sucesso!",
+            data: match
+        })
+
+
+
+    }catch(err){
+
+        res.status(500).json({
+            success: true,
+            message: err
+        })
+
+        console.log("erro interno do servidor: ", err)
+    }
+})
+
 
 
 /*INICIO AGENDAMENTOS */

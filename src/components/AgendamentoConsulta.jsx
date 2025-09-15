@@ -1,7 +1,7 @@
 import {useState} from "react"
 import { newScheduling } from "../API/axios.js"
 import "../styles/AgendamentoConsulta.css"
-import { Navigate } from "react-router-dom"
+
 
 
 

@@ -1,7 +1,7 @@
 import "../styles/CreateAccount.css"
 import {useState, useEffect} from "react"
 import { newUser } from "../API/axios.js"
-import { Link, Navigate } from "react-router-dom"
+import { Link } from "react-router-dom"
 
 
 export default props => {
@@ -34,7 +34,7 @@ export default props => {
                 userType: '',
                 password: ''
             })
-            Navigate("/login")
+            window.location.href = "/login"
 
         }catch(err){console.log(err)}
         
